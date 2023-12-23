@@ -1,0 +1,46 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container {
+        @apply max-w-[1200px] mx-auto
+    }
+    .flexx {
+        @apply flex items-center
+    }
+    .flex-center {
+        @apply flex items-center justify-center
+    }
+    .flex-between {
+        @apply flex items-center justify-between
+    }
+
+
+    /* header */
+    .header-link {
+        @apply font-medium text-[#181818] cursor-pointer hover:underline
+    }
+
+
+    /* forms */
+    .form-control {
+        @apply flex flex-col mb-3
+    }
+    .form-label {
+        @apply text-lg font-medium mb-3
+    }
+    .form-input {
+        @apply border border-gray-300 rounded-md p-2 outline-none
+    }
+    .form-input-error {
+        @apply text-red-700 font-medium
+    }
+
+
+    /* categories */
+    .category {
+        @apply border border-[#ccc] py-1.5 px-4 cursor-pointer rounded-md mr-3 text-sm font-medium text-gray-700 mb-3 hover:border-gray-800
+    }
+}
