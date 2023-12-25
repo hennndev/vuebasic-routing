@@ -71,7 +71,6 @@
                 <ErrorMessage name="blogAuthor" class="form-input-error"/>
             </div>
             <div class="form-control">
-                <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, nihil vitae? Ut, iure voluptates, similique illum quidem incidunt vel corrupti cum recusandae enim eaque dolore nam deleniti rerum perferendis suscipit, esse voluptatum repellat blanditiis accusantium consequuntur. Tempora, corporis. Nesciunt rem officiis officia, veniam nostrum perferendis quibusdam? Libero veniam excepturi consectetur magnam dignissimos velit suscipit inventore quis dolorum laudantium, provident ad perferendis, beatae sint! Esse deleniti culpa commodi vel natus corporis, sequi itaque! Modi amet vel suscipit deserunt. Quas, eveniet! Debitis sit alias cum officia iste nobis numquam, nihil provident accusamus optio soluta amet cupiditate harum sequi, consequuntur eum incidunt quam.</p> -->
                 <label for="blogCategory" class="form-label">Blog Category</label>
                 <Field as="select" name="blogCategory" id="blogCategory" class="form-input">
                     <option value="" selected>Choose Category</option>
