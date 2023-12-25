@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1703477938048,
+      "title": "Tutorial Typescript for Beginner",
+      "author": "Hendra Permana",
+      "category": "programming",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi error delectus quis labore fugit porro corrupti recusandae ducimus maxime voluptatum, unde eius aliquam facilis magnam impedit, laudantium quo. Veritatis voluptas recusandae blanditiis voluptate numquam repudiandae praesentium. Labore, dolor laudantium. Facilis vitae esse accusamus commodi ut tenetur, excepturi vero eum nobis consequatur delectus tempora? Recusandae, doloremque aliquid. Nihil eum dignissimos quas, perspiciatis voluptatem voluptatum velit saepe numquam, voluptatibus suscipit nemo amet fuga excepturi obcaecati, dolore vitae tempore quibusdam sapiente. Ipsum, accusamus, esse distinctio ex incidunt nisi ab sequi libero magni debitis odio at perspiciatis facilis quisquam molestias recusandae dolore provident doloribus!",
+      "image": "https://miro.medium.com/v2/resize:fit:1358/1*moJeTvW97yShLB7URRj5Kg.png",
+      "date": "2023-12-25T04:18:58.048Z"
+    },
+    {
+      "id": 1703478377070,
+      "title": "Tutorial NodeJS for Beginner",
+      "author": "Hendra Adri",
+      "category": "programming",
+      "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, nihil vitae? Ut, iure voluptates, similique illum quidem incidunt vel corrupti cum recusandae enim eaque dolore nam deleniti rerum perferendis suscipit, esse voluptatum repellat blanditiis accusantium consequuntur. Tempora, corporis. Nesciunt rem officiis officia, veniam nostrum perferendis quibusdam? Libero veniam excepturi consectetur magnam dignissimos velit suscipit inventore quis dolorum laudantium, provident ad perferendis, beatae sint! Esse deleniti culpa commodi vel natus corporis, sequi itaque! Modi amet vel suscipit deserunt. Quas, eveniet! Debitis sit alias cum officia iste nobis numquam, nihil provident accusamus optio soluta amet cupiditate harum sequi, consequuntur eum incidunt quam.",
+      "image": "https://buddy.works/guides/covers/test-nodejs-app/share-nodejs-logo.png",
+      "date": "2023-12-25T04:26:17.070Z"
+    }
+  ]
+}

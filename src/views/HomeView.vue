@@ -1,13 +1,19 @@
 <script>
     import Blogs from '../components/Blogs/Blogs.vue'
     import SearchInput from '@/components/SearchInput.vue';
-    import { blogsData } from '@/data/blogs'
 
     export default {
         data() {
             return {
-                blogsData
+                blogsData: []
             }
+        },
+        mounted(){
+            fetch('http://localhost:3000/posts')
+                .then(res => res.json())
+                .then(res => {
+                    this.blogsData = res
+                })
         },
         components: {
             Blogs, 

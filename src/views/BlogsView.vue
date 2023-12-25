@@ -1,6 +1,4 @@
 <script>
-    import { useRoute } from 'vue-router'
-    import { blogsData} from '@/data/blogs'
     import Blogs from '../components/Blogs/Blogs.vue'
     import SearchInput from '../components/SearchInput.vue'
     import Categories from '../components/Blogs/Categories.vue'
@@ -8,7 +6,7 @@
     export default {
         data() {
             return {
-                blogsData: blogsData,
+                blogsData: [],
             }
         },
         computed: {
@@ -28,6 +26,13 @@
                     }
                 })
             }
+        },
+        mounted() {
+            fetch('http://localhost:3000/posts')
+                .then(res => res.json())
+                .then(res => {
+                    this.blogsData = res
+                })
         },
         components: {
             Blogs,

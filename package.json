@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "json-server": "json-server --watch db.json"
   },
   "dependencies": {
+    "json-server": "^0.17.4",
     "vee-validate": "^4.12.3",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5",

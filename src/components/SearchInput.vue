@@ -3,7 +3,7 @@
     export default {
         data() {
             return {
-                searchTerm: '',
+                searchTerm: this.$route.query.q || '',
             }
         },
         methods: {

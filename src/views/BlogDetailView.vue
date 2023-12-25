@@ -1,9 +1,18 @@
-<script setup>
-    import { blogsData } from '@/data/blogs'
-    import { useRoute } from 'vue-router'
-
-    const route = useRoute()
-    const  blog = blogsData.find(data => data.id === +route.params.blogId)
+<script>
+    export default {
+        data() {
+            return {
+                blog: {}
+            }
+        },
+        mounted() {
+            fetch(`http://localhost:3000/posts/${this.$route.params.blogId}`)
+            .then(res => res.json())
+            .then(res => {
+                this.blog = res
+            })
+        }
+    }
 
 
 </script>
@@ -19,7 +28,7 @@
                 <div class="mb-10">
                     <h1 class="text-center text-5xl text-gray-700 font-bold">{{ blog.title }}</h1>
                     <p class="text-lg font-semibold uppercase mb-2 text-center mt-5">
-                        {{ blog.category.charAt(0) }}<span class="lowercase">{{ blog.category.slice(1) }}</span> &middot; 
+                        {{ blog.category?.charAt(0) }}<span class="lowercase">{{ blog.category?.slice(1) }}</span> &middot; 
                         <span class="text-base font-medium">{{ new Date(blog.date).toLocaleDateString() }}</span>
                     </p>
                 </div>
